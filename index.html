@@ -1,0 +1,442 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>M.studio | Marc Latevi - Infographe & Photographe</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav id="navbar">
+      <a href="#" class="logo">M<span>.</span>studio</a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#accueil">Accueil</a></li>
+        <li><a href="#a-propos">À propos</a></li>
+        <li><a href="#expertise">Expertise</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="mobile-menu" id="mobileMenu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="accueil">
+      <div class="hero-bg"></div>
+      <div class="hero-content">
+        <h1>M<span>.</span>studio</h1>
+        <p class="hero-subtitle">
+          Marc Latevi — Infographe, Photographe & Réalisateur
+        </p>
+        <div class="hero-cta">
+          <a href="#portfolio" class="btn btn-primary">Voir les projets</a>
+          <a href="#contact" class="btn">Me contacter</a>
+        </div>
+      </div>
+      <div class="scroll-indicator">
+        <span></span>
+        <div class="scroll-line"></div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about reveal" id="a-propos">
+      <div class="about-grid">
+        <div class="about-image">
+          <div class="about-image-placeholder">
+            <span>
+              <img src="./assets/image/Marc.jpeg" alt="" height="860px" />
+            </span>
+          </div>
+        </div>
+        <div class="about-content">
+          <h3>Marc Latevi</h3>
+          <p>
+            Passionné par l'image sous toutes ses formes, je combine expertise
+            technique et créativité pour donner vie à vos projets visuels. De
+            l'infographie print au digital, de la photographie professionnelle à
+            la réalisation vidéo amateur, chaque projet est une nouvelle
+            aventure.
+          </p>
+          <p>
+            Avec plusieurs années d'expérience dans le domaine de la
+            communication visuelle, j'accompagne entreprises et particuliers
+            dans la création d'identités fortes et de contenus impactants.
+          </p>
+          <div class="skills">
+            <span class="skill-tag">Adobe Creative Suite</span>
+            <span class="skill-tag">Photographie</span>
+            <span class="skill-tag">Direction Artistique</span>
+            <span class="skill-tag">Montage Vidéo</span>
+            <span class="skill-tag">Branding</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Expertise Section -->
+    <section id="expertise">
+      <div class="section-header reveal">
+        <h2 class="section-title">Expertise</h2>
+        <p class="section-desc">
+          Trois domaines complémentaires pour répondre à tous vos besoins en
+          communication visuelle.
+        </p>
+      </div>
+      <div class="expertise-grid reveal">
+        <div class="expertise-card">
+          <div class="expertise-icon">
+            <img src="./assets/icone/arts.png" alt="" height="56px" />
+          </div>
+          <h3>Infographie</h3>
+          <p>
+            Création d'identités visuelles, supports print et digitaux, mise en
+            page éditoriale, et solutions graphiques sur mesure pour donner
+            corps à votre message.
+          </p>
+        </div>
+        <div class="expertise-card">
+          <div class="expertise-icon">
+            <img
+              src="./assets/icone/la-photographie.png"
+              alt=""
+              height="56px"
+            />
+          </div>
+          <h3>Photographie</h3>
+          <p>
+            Sessions photo professionnelles : portraits, produits, événements et
+            reportages. Une approche artistique et technique pour sublimer
+            chaque instant.
+          </p>
+        </div>
+        <div class="expertise-card">
+          <div class="expertise-icon">
+            <img
+              src="./assets/icone/realisation-de-films.png"
+              alt=""
+              height="56px"
+            />
+          </div>
+          <h3>Réalisation</h3>
+          <p>
+            Production vidéo amateur avec regard professionnel : clips,
+            interviews, couverture d'événements et contenus pour réseaux
+            sociaux.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio reveal" id="portfolio">
+      <div class="section-header">
+        <h2 class="section-title">Portfolio</h2>
+        <p class="section-desc">
+          Une sélection de projets récents à travers les différentes
+          disciplines.
+        </p>
+      </div>
+
+      <div class="portfolio-filter">
+        <button class="filter-btn active" data-filter="all">Tous</button>
+        <button class="filter-btn" data-filter="infographie">
+          Infographie
+        </button>
+        <button class="filter-btn" data-filter="photo">Photographie</button>
+        <button class="filter-btn" data-filter="video">Vidéo</button>
+      </div>
+
+      <div class="portfolio-grid">
+        <div class="portfolio-item" data-category="infographie">
+          <div class="portfolio-placeholder">
+            <span>🎨</span>
+            <p>Identité visuelle Brand X</p>
+          </div>
+          <div class="portfolio-overlay">
+            <span class="portfolio-category">Infographie</span>
+            <h3 class="portfolio-title">Identité visuelle complète</h3>
+          </div>
+        </div>
+        <div class="portfolio-item" data-category="photo">
+          <div class="portfolio-placeholder">
+            <span>📷</span>
+            <p>Portrait Corporate</p>
+          </div>
+          <div class="portfolio-overlay">
+            <span class="portfolio-category">Photographie</span>
+            <h3 class="portfolio-title">Série portraits corporate</h3>
+          </div>
+        </div>
+        <div class="portfolio-item" data-category="video">
+          <div class="portfolio-placeholder">
+            <span>🎬</span>
+            <p>Clip Événementiel</p>
+          </div>
+          <div class="portfolio-overlay">
+            <span class="portfolio-category">Vidéo</span>
+            <h3 class="portfolio-title">Aftermovie Festival 2024</h3>
+          </div>
+        </div>
+        <div class="portfolio-item" data-category="infographie">
+          <div class="portfolio-placeholder">
+            <span>📐</span>
+            <p>Édition Magazine</p>
+          </div>
+          <div class="portfolio-overlay">
+            <span class="portfolio-category">Infographie</span>
+            <h3 class="portfolio-title">Mise en page éditoriale</h3>
+          </div>
+        </div>
+        <div class="portfolio-item" data-category="photo">
+          <div class="portfolio-placeholder">
+            <span>🍽️</span>
+            <p>Food Photography</p>
+          </div>
+          <div class="portfolio-overlay">
+            <span class="portfolio-category">Photographie</span>
+            <h3 class="portfolio-title">Shooting culinaire</h3>
+          </div>
+        </div>
+        <div class="portfolio-item" data-category="video">
+          <div class="portfolio-placeholder">
+            <span>🎤</span>
+            <p>Interview</p>
+          </div>
+          <div class="portfolio-overlay">
+            <span class="portfolio-category">Vidéo</span>
+            <h3 class="portfolio-title">Série d'interviews</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="section-header reveal">
+        <h2 class="section-title">Contact</h2>
+        <p class="section-desc">Discutons de votre prochain projet.</p>
+      </div>
+      <div class="contact reveal">
+        <div class="contact-info">
+          <h3>Travaillons ensemble</h3>
+          <p style="color: var(--text-muted); margin-bottom: 2rem">
+            Vous avez un projet en tête ? N'hésitez pas à me contacter pour en
+            discuter. Je suis disponible pour des missions en freelance ou des
+            collaborations ponctuelles.
+          </p>
+
+          <div class="contact-details">
+            <div class="contact-item">
+              <div class="contact-icon">✉️</div>
+              <div class="contact-text">
+                <h4>Email</h4>
+                <a href="mailto:contact@marc-latevi.com"
+                  >marclatevi@gmail.com</a
+                >
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">📱</div>
+              <div class="contact-text">
+                <h4>Téléphone</h4>
+                <p>+225 05 04 96 82 47</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">📍</div>
+              <div class="contact-text">
+                <h4>Localisation</h4>
+                <p>Abidjan, Côte d'Ivoire</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="social-links">
+            <a href="#" class="social-link" title="Instagram">
+              <img src="./assets/icone/instagram.png" alt="" height="16px" />
+            </a>
+            <a href="#" class="social-link" title="LinkedIn">
+              <img src="./assets/icone/linkedin.png" alt="" height="16px" />
+            </a>
+            <a href="#" class="social-link" title="Facebook">
+              <img src="./assets/icone/facebook (1).png" alt="" height="16px" />
+            </a>
+            <a href="#" class="social-link" title="Tiktok">
+              <img src="./assets/icone/TikTok.png" alt="" height="16px" />
+            </a>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contactForm">
+          <div class="form-group">
+            <label for="name">Nom</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <label for="subject">Sujet</label>
+            <input type="text" id="subject" name="subject" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+          <button type="submit" class="submit-btn">Envoyer le message</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-content">
+        <div class="footer-logo">M<span>.</span>studio</div>
+        <p class="footer-text">
+          Créativité, technique et passion au service de votre image.
+        </p>
+        <ul class="footer-links">
+          <li><a href="#accueil">Accueil</a></li>
+          <li><a href="#a-propos">À propos</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <p class="copyright">
+          © 2026 M.studio - Marc Latevi. Tous droits réservés.
+        </p>
+      </div>
+    </footer>
+
+    <script>
+      // Mobile Menu Toggle
+      const mobileMenu = document.getElementById("mobileMenu");
+      const navLinks = document.getElementById("navLinks");
+
+      mobileMenu.addEventListener("click", () => {
+        mobileMenu.classList.toggle("active");
+        navLinks.classList.toggle("active");
+      });
+
+      // Close mobile menu when clicking on a link
+      document.querySelectorAll(".nav-links a").forEach((link) => {
+        link.addEventListener("click", () => {
+          mobileMenu.classList.remove("active");
+          navLinks.classList.remove("active");
+        });
+      });
+
+      // Navbar background on scroll
+      const navbar = document.getElementById("navbar");
+      window.addEventListener("scroll", () => {
+        if (window.scrollY > 100) {
+          navbar.style.background = "rgba(10, 10, 10, 0.95)";
+          navbar.style.padding = "1.5rem 5%";
+        } else {
+          navbar.style.background = "rgba(10, 10, 10, 0.8)";
+          navbar.style.padding = "2rem 5%";
+        }
+      });
+
+      // Scroll Reveal Animation
+      const revealElements = document.querySelectorAll(".reveal");
+
+      const revealOnScroll = () => {
+        const windowHeight = window.innerHeight;
+        const elementVisible = 150;
+
+        revealElements.forEach((reveal) => {
+          const elementTop = reveal.getBoundingClientRect().top;
+          if (elementTop < windowHeight - elementVisible) {
+            reveal.classList.add("active");
+          }
+        });
+      };
+
+      window.addEventListener("scroll", revealOnScroll);
+      revealOnScroll(); // Check on load
+
+      // Portfolio Filter
+      const filterBtns = document.querySelectorAll(".filter-btn");
+      const portfolioItems = document.querySelectorAll(".portfolio-item");
+
+      filterBtns.forEach((btn) => {
+        btn.addEventListener("click", () => {
+          // Remove active class from all buttons
+          filterBtns.forEach((b) => b.classList.remove("active"));
+          // Add active class to clicked button
+          btn.classList.add("active");
+
+          const filterValue = btn.getAttribute("data-filter");
+
+          portfolioItems.forEach((item) => {
+            if (
+              filterValue === "all" ||
+              item.getAttribute("data-category") === filterValue
+            ) {
+              item.style.display = "block";
+              item.style.animation = "fadeInUp 0.5s ease forwards";
+            } else {
+              item.style.display = "none";
+            }
+          });
+        });
+      });
+
+      // Contact Form Handler
+      const contactForm = document.getElementById("contactForm");
+
+      contactForm.addEventListener("submit", (e) => {
+        e.preventDefault();
+
+        // Get form values
+        const formData = new FormData(contactForm);
+        const data = Object.fromEntries(formData);
+
+        // Simulate form submission
+        const submitBtn = contactForm.querySelector(".submit-btn");
+        const originalText = submitBtn.textContent;
+
+        submitBtn.textContent = "Envoi en cours...";
+        submitBtn.disabled = true;
+
+        setTimeout(() => {
+          alert(
+            "Merci pour votre message ! Je vous recontacte dans les plus brefs délais.",
+          );
+          contactForm.reset();
+          submitBtn.textContent = originalText;
+          submitBtn.disabled = false;
+        }, 1500);
+      });
+
+      // Smooth scroll for anchor links
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+          const target = document.querySelector(this.getAttribute("href"));
+          if (target) {
+            target.scrollIntoView({
+              behavior: "smooth",
+              block: "start",
+            });
+          }
+        });
+      });
+
+      // Parallax effect for hero background
+      window.addEventListener("scroll", () => {
+        const scrolled = window.pageYOffset;
+        const heroBg = document.querySelector(".hero-bg");
+        if (heroBg) {
+          heroBg.style.transform = `translateY(${scrolled * 0.5}px)`;
+        }
+      });
+    </script>
+  </body>
+</html>
